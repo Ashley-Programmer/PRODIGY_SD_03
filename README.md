@@ -2,7 +2,7 @@
 
 An interactive web-based Sudoku solver with a sleek golden interface and real-time validation. Built with vanilla HTML, CSS, and JavaScript.
 
-![prodigy_sd_03](images/numbers3.jpg)
+![prodigy_sd_03](images/Screenshot.png)
 
 ## Features
 
