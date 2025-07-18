@@ -35,7 +35,7 @@ An interactive web-based Sudoku solver with a sleek golden interface and real-ti
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Ashley-Programmer/sudoku-solver.git
+git clone https://github.com/Ashley-Programmer/[sudoku-solver](https://github.com/Ashley-Programmer/PRODIGY_SD_03).git
 cd prodigy_sd_03
 ```
 
