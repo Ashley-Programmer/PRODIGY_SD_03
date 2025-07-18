@@ -3,7 +3,7 @@
     padding: 0;
 }
 body {
-    background-image: url('images/numbers5.webp');
+    background-image: url('images/numbers3.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -63,7 +63,7 @@ body {
 .numbers > p {
     padding-top: 0.2vh;
     flex: 1;
-    border: 2px solid rgba(255, 255, 255, 0.904);
+    border: 2px solid rgba(245, 219, 76, 0.904);
     width: 2.7vw;
     height: 2.7vw;
     font-size: 2vw;
@@ -97,11 +97,11 @@ body {
     color: yellow;
 }
 .square:hover {
-    background-color: rgba(171, 171, 171, 0.345);
+    background-color: rgba(236, 191, 75, 0.473);
     cursor: pointer;
 }
 .solve-colour {
-    background-color: rgba(200, 200, 200, 0.574);
+    background-color: rgba(245, 228, 131, 0.574);
 }
 .border-bottom {
     border-bottom: 4px solid gold;
@@ -142,8 +142,8 @@ body {
     left: 0;
     width: 20px;
     height: 20px;
-    border-left: 2px solid rgba(255, 255, 255, 0.904);
-    border-top: 2px solid rgba(255, 255, 255, 0.904);
+    border-left: 2px solid rgba(245, 219, 76, 0.904);
+    border-top: 2px solid rgba(245, 219, 76, 0.904);
     z-index: -1;
     transition: 0.5s;
 }
@@ -154,8 +154,8 @@ body {
     bottom: 0;
     width: 20px;
     height: 20px;
-    border-right: 2px solid rgba(255, 255, 255, 0.904);
-    border-bottom: 2px solid rgba(255, 255, 255, 0.904);
+    border-right: 2px solid rgba(245, 219, 76, 0.904);
+    border-bottom: 2px solid rgba(245, 219, 76, 0.904);
     transition: 0.5s;
 }
 .solver:hover::before, .speedup:hover::before, .new-board:hover::before,
@@ -166,6 +166,6 @@ body {
 .solver:hover, .speedup:hover, .new-board:hover {
     background-color: rgba(171, 171, 171, 0.345);
     transform: translateY(-2px);
-    box-shadow: 0 0 50px lightcyan;
+    box-shadow: 0 0 50px rgb(243, 225, 65);
     cursor: pointer;
 }
