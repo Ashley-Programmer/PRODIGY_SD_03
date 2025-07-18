@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sudoku Solver</title>
+</head>
+
+<body id="body">
+
+    <div class="main" id="main">
+        <h1 class="heading" id="heading">Sudoku Solver</h1>
+
+        <div class="active" id="active">
+            <div class="main-btns">
+                <div class="solver" id="solver">
+                    <h1>Solve!</h1>
+                </div>
+
+                <div class="speedup" id="speedup">
+                    <h1>Speed Solve!</h1>
+                </div>
+
+                <div class="new-board" id="new-board">
+                    <h1>New Board</h1>
+                </div>
+            </div>
+
+            <div class="board" id="board"></div>
+
+            <div class="numbers" id="numbers">
+                <p class="nums" id="one">1</p>
+                <p class="nums" id="two">2</p>
+                <p class="nums" id="three">3</p>
+                <p class="nums" id="four">4</p>
+                <p class="nums" id="five">5</p>
+                <p class="nums" id="six">6</p>
+                <p class="nums" id="seven">7</p>
+                <p class="nums" id="eight">8</p>
+                <p class="nums" id="nine">9</p>
+                <p class="nums" id="del">C</p>
+            </div>
+
+            <div class="all-warnings">
+                <p class="warning-1" id="warning-1">Number is being <br> repeated in the same row.</p>
+                <p class="warning-2" id="warning-2">Number is being <br> repeated in the same column.</p>
+                <p class="warning-3" id="warning-3">Number is being <br> repeated in the same sub-square.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="index.js" defer></script>
+</body>
+
+</html>
